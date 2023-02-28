@@ -1,6 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import animals from "./data/animals";
 
 const container = document.getElementById("app");
 const root = createRoot(container);
-root.render(<h1>Hello, World!</h1>);
+
+
+root.render(<section>{animals.length} {animals.join(" ")}</section>);
