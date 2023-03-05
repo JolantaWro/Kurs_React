@@ -6,6 +6,6 @@ const container = document.getElementById("app");
 const root = createRoot(container);
 root.render(
     <>
-        <LikeBox />
+        <LikeBox likes={4}/>
     </>
 );
