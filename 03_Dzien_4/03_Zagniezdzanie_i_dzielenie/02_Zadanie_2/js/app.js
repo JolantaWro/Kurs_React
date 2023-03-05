@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { createRoot } from "react-dom/client";
+import Header2 from "./Header2";
 
 class Header extends Component {
   render() {
@@ -17,6 +18,13 @@ class Header extends Component {
   }
 }
 
+const App2 = () => {
+    return (
+        <>
+            <Header2 logo="Your company!" searchPlaceholder="Type some words..." />
+        </>
+    )
+}
 class App extends Component {
   render() {
     return <Header logo="Your company!" searchPlaceholder="Type some words..." />;
@@ -25,4 +33,5 @@ class App extends Component {
 
 const container = document.getElementById("app");
 const root = createRoot(container);
-root.render(<App />);
+root.render(<App2 />
+);
