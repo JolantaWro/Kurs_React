@@ -1,7 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 
-const entryPath = "06_Dzien_9-10/02_Renderowanie_warunkowe/03_Zadanie_3";
+const entryPath = "05_Dzien_8/01_Podstawy_zdarzen/01_Zadanie_1";
 
 module.exports = {
   mode: "none",
