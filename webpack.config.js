@@ -1,7 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 
-const entryPath = "06_Dzien_9-10/03_Warunkowe_blokowanie_wyswietlania/02_Zadanie_2";
+const entryPath = "07_Dzien_11/01_Metody_cyklu_zycia_komponentu/03_Zadanie_3";
 
 module.exports = {
   mode: "none",
