@@ -39,6 +39,9 @@ const MathQuestionGame = () => {
             }
         }
     }
+    // if (timeGame === 0) {
+    //     messageElement.innerHTML = "Czas upłynął"
+    // }
 
     const checkNumber = () => {
         while(choices.length < 4) {
@@ -63,6 +66,7 @@ const MathQuestionGame = () => {
             })
         }, 50)
     }, [])
+
 
 
     return (
