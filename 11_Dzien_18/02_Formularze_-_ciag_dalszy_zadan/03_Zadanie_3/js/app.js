@@ -1,7 +1,10 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
+import DynamicLego from "./DynamicLego";
+
+const App = () => <DynamicLego />
 
 ReactDOM.render(
-  <h1>Hello, World!</h1>,
+ <> <App /> </>,
   document.getElementById("app")
 );
