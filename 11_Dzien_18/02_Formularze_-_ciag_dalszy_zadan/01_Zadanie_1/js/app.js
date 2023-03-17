@@ -1,7 +1,15 @@
 import React, {Component} from "react";
-import ReactDOM from "react-dom";
+import PESELInput from "./PeselInput";
 
-ReactDOM.render(
-  <h1>Hello, World!</h1>,
-  document.getElementById("app")
-);
+import {createRoot} from "react-dom/client";
+import PeselInput from "./PeselInput";
+
+const App = () => <PeselInput />
+
+// ReactDOM.render(
+//   <> <App /></>,
+//   document.getElementById("app")
+// );
+const container = document.getElementById("app");
+const root = createRoot(container);
+root.render(<App />);
