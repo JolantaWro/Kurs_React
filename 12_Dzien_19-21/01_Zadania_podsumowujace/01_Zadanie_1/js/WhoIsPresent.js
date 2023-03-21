@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 const WhoIsPresent = () => {
-    const arrayPerson = ['Anna Kowalska', 'Jan Kowalski', 'Maciej von Handerburg', 'Jurand ze Spychowa'];
+    const arrayPerson = ['','Anna Kowalska', 'Jan Kowalski', 'Maciej von Handerburg', 'Jurand ze Spychowa'];
     const [personToSelect, setPersonSelect] = useState(arrayPerson);
     const [presentPerson, setPresentPerson] = useState([]);
 
